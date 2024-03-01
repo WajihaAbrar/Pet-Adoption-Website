@@ -10,6 +10,7 @@ body {
 }
 .top-section-container {
   background-color: #001d37;
+  padding: 0px 16px;
 }
 .top-section {
   color: #fff;
@@ -35,6 +36,7 @@ body {
 .pet-btn {
   display: inline-block;
   background-color: #475aff;
+  border: 2px solid #475aff;
   color: #fff;
   font-size: 1.125rem;
   font-weight: 600;
@@ -57,4 +59,13 @@ body {
 }
 .intro-feature {
   border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 33px 25px;
+}
+.intro-feature h2 {
+  font-size: 1.5rem;
+  margin: 31px 0 3px 0;
+}
+.intro-feature p {
+  font-size: 1.0625rem;
+  margin: 0;
 }
