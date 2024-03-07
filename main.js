@@ -9,3 +9,15 @@ async function weatherApi() {
 }
 
 weatherApi();
+
+async function petsArea() {
+  const petsPromise = await fetch(
+    "https://learnwebcode.github.io/bootcamp-pet-data/pets.json"
+  );
+  const petData = await petsPromise.json();
+  petData.forEach((pet) => {
+    console.log(pet.name);
+  });
+}
+
+petsArea();
