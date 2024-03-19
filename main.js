@@ -15,7 +15,7 @@ weatherApi();
 
 async function petsArea() {
   const petsPromise = await fetch(
-    "https://learnwebcode.github.io/bootcamp-pet-data/pets.json"
+    "https://magical-faun-a7b1c6.netlify.app/.netlify/functions/pets"
   );
   const petData = await petsPromise.json();
   petData.forEach((pet) => {
@@ -71,3 +71,6 @@ function handleButtonClick(event) {
     }
   });
 }
+
+username = wajihaabrar;
+password = qTvZsV2brhjUGBwf;
